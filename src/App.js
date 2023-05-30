@@ -5,7 +5,7 @@ function Square({value, onSquareClick}) {
 
   return (<button 
     className="square" 
-    // the child Square component asks the parent Board component to update the state of the board
+    // the child Square component asks the parent Board component to update the state of the board.
     onClick={onSquareClick}
     >{value}</button>
     );
