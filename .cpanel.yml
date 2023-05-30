@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/didacticosdelsur/public_html/tictactoetest
-    - /bin/cp src/App.js $DEPLOYPATH
+    - /bin/cp src/App.js $DEPLOYPATH/src
