@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home2/didacticosdelsur/public_html/tictactoetest/
     - /bin/cp -R src $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
+    
